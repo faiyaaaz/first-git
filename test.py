@@ -12,16 +12,5 @@ def facto(a):
 
 print(facto(int(input("Enter: "))))
 
-#prime_check
-def is_prime(a):
-    flag = True
-    if a == 1 :
-        flag = False
-        return flag
-    for i in range(2,a):
-        if a % i == 0:
-            flag = False
-    return flag
 
-print(is_prime(int(input("Enter a: "))))
     
