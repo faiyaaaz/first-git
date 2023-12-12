@@ -1,3 +1,4 @@
+#factorial
 def facto(a):
     factorial = 1
 
@@ -11,6 +12,7 @@ def facto(a):
 
 print(facto(int(input("Enter: "))))
 
+#prime_check
 def is_prime(a):
     flag = True
     if a == 1 :
